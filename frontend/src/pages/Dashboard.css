@@ -1,0 +1,87 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: #f4f6f8;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.dashboard-header {
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-actions{
+
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Shorten Box */
+.shorten-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.shorten-box input {
+  flex: 1;
+  padding: 10px;
+}
+
+.shorten-box button {
+  padding: 10px 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Table */
+.table-container {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #f1f5f9;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* Truncate long URLs */
+.truncate {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fb;
+}
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+
+.shorten-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.shorten-mid{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.shorten-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.shorten-box input {
+  flex: 1;
+  padding: 10px;
+}
+
+.shorten-box button {
+  padding: 10px 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.shortened-url-container{
+    display: flex;
+  justify-content: center;   
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.shortened-url-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.shortened-url-textArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+textarea {
+  width: 500px;
+  height: 50px;
+}
+
+.url-input {
+  width: 600px;   /* control size */
+  padding: 10px;
+  font-size: 16px;
+}
+
+.shorten-btn {
+  padding: 10px 18px;
+  font-size: 16px;
+}
