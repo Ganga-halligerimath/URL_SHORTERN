@@ -2,41 +2,26 @@
 
 **A full-stack URL Shortener web application where users can shorten long URLs, manage their links, track clicks, and delete URLs from a dashboard.**
 🚀 Features
-🔐 User Authentication (Login / Logout)
-✂️ Shorten long URLs
-📋 Copy and use shortened URLs
-📊 Dashboard to view all created URLs
-👆 Click tracking
-❌ Delete shortened URLs
-🎯 Clean and responsive UI
-🛠️ Tech Stack
-Frontend
-React (Vite)
-React Router
-Axios
-CSS (Custom styling)
-Backend
-Node.js
-Express.js
-PostgreSQL
-JWT Authentication
-📂 Project Structure
-🔗 URL Shortener Application
-A full-stack URL Shortener web application where users can shorten long URLs, manage their links, track clicks, and delete URLs from a dashboard.
 
-🚀 Features
 🔐 User Authentication (Login / Logout)
+
 ✂️ Shorten long URLs
+
 📋 Copy and use shortened URLs
+
 📊 Dashboard to view all created URLs
+
 👆 Click tracking
+
 ❌ Delete shortened URLs
+
 🎯 Clean and responsive UI
+
 🛠️ Tech Stack
 **Frontend**
 - React (Vite)
 - React Router
-- Axios
+-Axios
 - CSS (Custom styling)
 **Backend**
 -Node.js
@@ -66,8 +51,7 @@ backend/
 ├── middleware/
 └── server.js
 
-**#Installation & setup
-**
+**#Installation & setup**
 1. clone the project
 git clone "(https://github.com/Ganga-halligerimath/URL_SHORTERN)"
 cd url-shortener
