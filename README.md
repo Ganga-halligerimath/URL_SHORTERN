@@ -69,7 +69,7 @@ backend/
 **#Installation & setup
 **
 1. clone the project
-git clone https://github.com/your-username/url-shortener.git
+git clone "(https://github.com/Ganga-halligerimath/URL_SHORTERN)"
 cd url-shortener
 
 ## 2.Backend Setup
