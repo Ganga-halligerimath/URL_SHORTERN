@@ -44,6 +44,7 @@ frontend/
 │ │ └── Dashboard.css
 │ └── App.jsx
 │
+
 backend/
 ├── controllers/
 ├── routes/
